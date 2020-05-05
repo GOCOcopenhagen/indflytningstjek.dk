@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <title>Indflytningstjek.dk</title>
+    </head>
+
+    <body>
+        <header>
+            <div class="logo">
+                <img src="./LOGO_Indflytningstjek.png" alt="" srcset="">
+            </div>
+            <div class="menu">
+                <div>Shop</div>
+                <div class="menu-desktop">Shop</div>
+                <div class="menu-desktop">Shop</div>
+                <div class="menu-desktop">Shop</div>
+            </div>
+            <div class="burger">
+                <i class="fa fa-bars"></i>
+            </div>
+        </header>
+
+        <!-- Load Stripe.js on your website. -->
+        <script src="https://js.stripe.com/v3"></script>
+
+        <section class="services">
+            <div class="section-title center">
+                <h1>SHOP</h1>
+                <div class="yellow-bar"></div>
+            </div>
+            <div class="service-container">
+                <div class="service-item" data-aos="fade-left" data-aos-offset="0">
+                    <img src="./Indflytningstjek billeder/maria-ziegler-1AmEImwtnFk-unsplash.jpg" alt="">
+                    <h2>Title</h2>
+                    <p>lsdjb skdjbsb sdvkjbs soubdg sidbgkhb nsdjvb s</p>
+                    <button class="buy-button" id="checkout-button-sku_HDRDCbeJ8OeNUN" role="link">
+                        Checkout
+                    </button>
+                </div>
+
+                <div class="service-item" data-aos="fade-left" data-aos-delay="200">
+                    <img src="./Indflytningstjek billeder/maria-ziegler-1AmEImwtnFk-unsplash.jpg" alt="">
+                    <h2>Title</h2>
+                    <p>lsdjb skdjbsb sdvkjbs soubdg sidbgkhb nsdjvb s</p>
+                </div>
+
+                <div class="service-item" data-aos="fade-left" data-aos-delay="400">
+                    <img src="./Indflytningstjek billeder/maria-ziegler-1AmEImwtnFk-unsplash.jpg" alt="">
+                    <h2>Title</h2>
+                    <p>lsdjb skdjbsb sdvkjbs soubdg sidbgkhb nsdjvb s</p>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="column">
+                <div>test 2</div>
+                <div>test 3</div>
+                <div>test 3</div>
+            </div>
+            <div class="column">
+                <div>test 3</div>
+                <div>test 3</div>
+                <div>test 3</div>
+            </div>
+        </footer>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+        <!-- Create a button that your customers click to complete their purchase. Customize the styling to suit your branding. -->
+
+        <div id="error-message"></div>
+
+        <script>
+            (function () {
+                var stripe = Stripe('pk_test_VFBgz4mvL0eFqt9ZV1YmXZEM00Y09dGPFT');
+
+                var checkoutButton = document.getElementById('checkout-button-sku_HDRDCbeJ8OeNUN');
+                checkoutButton.addEventListener('click', function () {
+                    // When the customer clicks on the button, redirect
+                    // them to Checkout.
+                    stripe.redirectToCheckout({
+                        items: [{ sku: 'sku_HDRDCbeJ8OeNUN', quantity: 1 }],
+
+                        // Do not rely on the redirect to the successUrl for fulfilling
+                        // purchases, customers may not always reach the success_url after
+                        // a successful payment.
+                        // Instead use one of the strategies described in
+                        // https://stripe.com/docs/payments/checkout/fulfillment
+                        locale: 'da',
+                        billingAddressCollection: "required",
+                        shippingAddressCollection: {
+                            allowedCountries: ['DK'],
+                        },
+                        successUrl: window.location.protocol + '//localhost/success',
+                        cancelUrl: window.location.protocol + '//localhost/cancel',
+                    })
+                        .then(function (result) {
+                            if (result.error) {
+                                // If `redirectToCheckout` fails due to a browser or network
+                                // error, display the localized error message to your customer.
+                                var displayError = document.getElementById('error-message');
+                                displayError.textContent = result.error.message;
+                            }
+                        });
+                });
+            })();
+        </script>
+        <script src="./action.ts"></script>
+    </body>
+
+</html>
