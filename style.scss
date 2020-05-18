@@ -1,6 +1,6 @@
 body {
-  margin: 0;
   padding: 0;
+  margin:0;
   overflow-x: hidden;
 }
 
@@ -106,9 +106,12 @@ p {
 header {
   background: #e8cf4b;
   width: 100vw;
-  height: 100px;
+  height: 70px;
   display: flex;
   justify-content: space-between;
+  z-index: 1;
+  position: fixed;
+  transition: top 0.3s;
   .logo {
     flex: 0.5;
     display: flex;
@@ -166,6 +169,11 @@ header {
   }
 }
 
+.menu-hide{
+  margin-top: -70px;
+  padding-top: 70px;
+}
+
 a:visited {
   color: inherit;
 }
@@ -199,8 +207,8 @@ a:visited {
 }
 
 section {
-  width: 100vw;
-  overflow-x: hidden;
+  width: 98vw;
+  overflow: hidden;
   .section-title {
     line-height: 50px;
     margin: 60px 0px;
@@ -221,12 +229,13 @@ section {
 }
 
 .hero {
+  width: 100vw;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   box-sizing: border-box;
   padding: $base-padding;
-  background-image: url("./nye\ billeder/Billede 1.jpg");
+  background-image: url("nye_billeder/Billede 1.jpg");
   background-size: cover;
   height: 50vh;
   justify-content: center;
@@ -344,6 +353,7 @@ section {
 }
 
 .about-us {
+  width: 100vw;
   display: flex;
   background: #f9f9f9;
   flex-direction: column-reverse;
@@ -381,29 +391,30 @@ section {
 }
 
 .full-with-numbers {
-  height: 30vh;
+  height: auto;
+  width: 100vw;
   @media (min-width: $desktop) {
-    height: 60vh;
+    height: auto;
     padding: 70px;
     box-sizing: border-box;
   }
   * {
-    color: #eee !important;
+    color: #212c3a !important;
   }
   background: #e8cf4b;
   justify-content: center;
   align-items: center;
   display: flex;
-  padding: 10px 0px;
+  padding: 30px 0px;
   h1,
   h2 {
     text-align: center;
   }
   h1 {
     margin: 10px 0;
-    font-size: 4vw;
+    font-size: 3vw;
     @media (min-width: $desktop) {
-      font-size: 3em;
+      font-size: 2.5vw;
       margin: 10px 0;
     }
   }
@@ -413,9 +424,12 @@ section {
       font-size: 1.4em;
     }
   }
+  a, div {
+    width: 30vw;
+  }
   .full-with-numbers-divider {
     width: 1px;
-    background: white;
+    background: #212c3a;
     margin: 0px 10px;
     height: 90px;
     margin-bottom: 10px;
@@ -425,6 +439,8 @@ section {
     }
   }
 }
+
+
 
 .references {
   height: fit-content;
@@ -599,9 +615,4 @@ footer {
   * {
     color: white !important;
   }
-}
-
-.num-r-w {
-  font-size: 3vw;
-  line-height: 50px;
 }
