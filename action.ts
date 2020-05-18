@@ -1,6 +1,5 @@
-console.log("hi")
-
-import './style.scss'
+import './style.css'
+import './aos.css'
 import './node_modules/modal-video/css/modal-video.min.css'
 import ModalVideo from 'modal-video';
 
