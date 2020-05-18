@@ -158,9 +158,9 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    i {
+    b {
       color: #424e5e;
-      font-size: 1.7em;
+      font-size: 3em;
     }
 
     @media (min-width: $desktop) {
@@ -201,7 +201,10 @@ a:visited {
     display: none;
   }
 }
-
+.menu-empty-element{
+  width: 100vw;
+  height: 70px;
+}
 .mobile-menu-active {
   height: initial;
 }
@@ -240,7 +243,7 @@ section {
   justify-content: center;
 
   h1 {
-    font-size: 2em;
+    font-size: 1.5em;
     color: rgb(0, 0, 0);
     //text-shadow: 0px 5px 5px rgba(226, 226, 226, 0.253);
     @media (min-width: $desktop) {

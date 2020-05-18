@@ -2,7 +2,6 @@ body {
   padding: 0;
   margin: 0;
   overflow-x: hidden;
-  margin-top: 70px;
 }
 h1,
 h2,
@@ -147,9 +146,9 @@ header .burger {
   justify-content: center;
   align-items: center;
 }
-header .burger i {
+header .burger b {
   color: #424e5e;
-  font-size: 1.7em;
+  font-size: 3em;
 }
 @media (min-width: 1000px) {
   header .burger {
@@ -187,6 +186,10 @@ a:visited {
     display: none;
   }
 }
+.menu-empty-element {
+  width: 100vw;
+  height: 70px;
+}
 .mobile-menu-active {
   height: initial;
 }
@@ -216,13 +219,12 @@ section .section-title h1 {
   align-items: flex-start;
   box-sizing: border-box;
   padding: 20px;
-  background-image: url("nye_billeder/Billede 1.jpg");
   background-size: cover;
   height: 50vh;
   justify-content: center;
 }
 .hero h1 {
-  font-size: 2em;
+  font-size: 1.5em;
   color: #000;
 }
 @media (min-width: 1000px) {
@@ -329,6 +331,7 @@ section .section-title h1 {
   padding: 10px 20px;
 }
 .about-us {
+  width: 100vw;
   display: flex;
   background: #f9f9f9;
   flex-direction: column-reverse;
@@ -371,6 +374,7 @@ section .section-title h1 {
 }
 .full-with-numbers {
   height: auto;
+  width: 100vw;
   background: #e8cf4b;
   justify-content: center;
   align-items: center;
