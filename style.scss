@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 
 h1,
@@ -18,7 +19,7 @@ div {
 }
 
 $base-padding: 20px;
-$desktop: 700px;
+$desktop: 1000px;
 
 h1 {
   margin: 0;
@@ -66,6 +67,12 @@ p {
   font-family: Arial, Helvetica, sans-serif;
   text-decoration: none;
   font-weight: bold;
+  transition: all 0.5s;
+  box-shadow: 0px 10px 5px rgba(255, 255, 255, 0);
+}
+
+.hero-button:hover {
+  box-shadow: 0px 10px 5px rgba(59, 59, 59, 0.185);
 }
 
 .input {
@@ -119,6 +126,7 @@ header {
     justify-content: flex-end;
     align-items: center;
     flex: 0.3;
+    font-weight: bold;
 
     .menu-desktop {
       @media (max-width: $desktop) {
@@ -133,8 +141,12 @@ header {
 
     a {
       color: #212c3a;
-      margin-left: 20px;
+      margin-left: 10px;
       text-decoration: none;
+      padding: 10px 10px;
+    }
+    a:hover {
+      color: #515f71;
     }
   }
 
@@ -144,7 +156,7 @@ header {
     justify-content: center;
     align-items: center;
     i {
-      color: white;
+      color: #424e5e;
       font-size: 1.7em;
     }
 
@@ -389,14 +401,14 @@ section {
   }
   h1 {
     margin: 10px 0;
-    font-size: 1em;
+    font-size: 4vw;
     @media (min-width: $desktop) {
       font-size: 3em;
       margin: 10px 0;
     }
   }
   h2 {
-    font-size: 1.2em;
+    font-size: 3vw;
     @media (min-width: $desktop) {
       font-size: 1.4em;
     }
@@ -587,4 +599,9 @@ footer {
   * {
     color: white !important;
   }
+}
+
+.num-r-w {
+  font-size: 3vw;
+  line-height: 50px;
 }
