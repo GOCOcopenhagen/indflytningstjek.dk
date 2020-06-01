@@ -14,7 +14,7 @@ $(() => {
                 'Content-Type': 'application/json'
             },
             body: JSON.stringify({
-                to: "louis@goco.dk",
+                to: "info@indflytningstjek.dk",
                 from: data[2].value,
                 subject: "Ny besked fra inflytnigstjek.dk",
                 text: `Navn:"${data[0].value} ${data[1].value}", Tlf:"${data[3].value}".
