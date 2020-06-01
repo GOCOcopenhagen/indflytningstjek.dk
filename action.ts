@@ -2,7 +2,7 @@ import './style.css'
 import './aos.css'
 import './node_modules/modal-video/css/modal-video.min.css'
 import ModalVideo from 'modal-video';
-
+import './style.scss'
 new ModalVideo('.overlay');
 
 const faq = document.querySelectorAll(".faq-item-head")

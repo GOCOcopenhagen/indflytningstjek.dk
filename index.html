@@ -1,68 +1,154 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--  This site was created in Webflow. http://www.webflow.com  -->
+<!--  Last Published: Mon Jun 01 2020 11:47:56 GMT+0000 (Coordinated Universal Time)  -->
+<html
+  data-wf-page="5ec7833fd43ebb9540779322"
+  data-wf-site="5ec7833f9ef05a57edb18ebf"
+>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
-    <!--@todo update this-->
-    <meta name="keywords" content="your, tags"/> 
-    <meta name="description" content="150 words"/>
-    <meta name="subject" content="your website's subject">
-    <meta name="copyright"content="company name">
-    <meta name="language" content="ES">
-    <meta name="robots" content="index,follow" />
-    <meta name="revised" content="Sunday, July 18th, 2010, 5:15 pm" />
-
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="aos.css" />
-
-    <title>Indflytningstjek.dk</title>
+    <meta charset="utf-8" />
+    <title>Spar pengeog optimer dit indflytningstjek</title>
+    <meta
+      content="Vi laver professionelle og fyldestgørende indflytningsrapporter i København, Århus og Odense, skræddersyet til din lejlighed, så du kan forsikre dit depositum imod din udlejer"
+      name="description"
+    />
+    <meta
+      content="Business - Webflow HTML website template"
+      property="og:title"
+    />
+    <meta
+      content="https://uploads-ssl.webflow.com/5c6eb5400253230156de2bd6/5cdc268dd7274d5c05c6009a_Business%20SEO.jpg"
+      property="og:image"
+    />
+    <meta
+      content="Business - Webflow HTML website template"
+      property="twitter:title"
+    />
+    <meta
+      content="https://uploads-ssl.webflow.com/5c6eb5400253230156de2bd6/5cdc268dd7274d5c05c6009a_Business%20SEO.jpg"
+      property="twitter:image"
+    />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="Webflow" name="generator" />
+    <link href="css/normalize.css" rel="stylesheet" type="text/css" />
+    <link href="css/webflow.css" rel="stylesheet" type="text/css" />
+    <link
+      href="css/indflytningstjek.webflow.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script
+      src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"
+      type="text/javascript"
+    ></script>
+    <script type="text/javascript">
+      WebFont.load({
+        google: {
+          families: [
+            "Montserrat:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic",
+          ],
+        },
+      });
+    </script>
+    <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
+    <script type="text/javascript">
+      !(function (o, c) {
+        var n = c.documentElement,
+          t = " w-mod-";
+        (n.className += t + "js"),
+          ("ontouchstart" in o ||
+            (o.DocumentTouch && c instanceof DocumentTouch)) &&
+            (n.className += t + "touch");
+      })(window, document);
+    </script>
+    <link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
   </head>
-
-  <body>
-    <header>
-      <div class="logo">
-        <img src="./LOGO_Indflytningstjek.png" alt="Indflytningstjek logo" srcset="" />
+  <body class="body">
+    <div
+      data-collapse="medium"
+      data-animation="default"
+      data-duration="400"
+      role="banner"
+      class="navigation navigation-shop w-nav"
+    >
+      <div class="navigation-wrap">
+        <a
+          href="index.html"
+          aria-current="page"
+          class="logo-link w-nav-brand w--current"
+          ><img
+            src="images/LOGO_Indflytningstjek.png"
+            width="179"
+            srcset="
+              images/LOGO_Indflytningstjek-p-500.png 500w,
+              images/LOGO_Indflytningstjek.png       642w
+            "
+            sizes="(max-width: 479px) 100vw, 179px"
+            alt=""
+            class="logo-image"
+        /></a>
+        <div class="menu">
+          <nav role="navigation" class="navigation-items w-nav-menu">
+            <a
+              href="index.html"
+              aria-current="page"
+              class="navigation-item w-nav-link w--current"
+              >Forside</a
+            ><a href="shop.html" class="navigation-item w-nav-link">BESTIL</a
+            ><a href="#cards-section-service" class="navigation-item w-nav-link"
+              >VORES SERVICE</a
+            ><a href="#About-us" class="navigation-item w-nav-link">Om os</a
+            ><a href="#FAQ" class="navigation-item w-nav-link">FAQ</a
+            ><a href="#Section-Contact" class="navigation-item w-nav-link"
+              >KONTAKT</a
+            >
+          </nav>
+          <div class="menu-button w-nav-button">
+            <img
+              src="images/menu-icon_1menu-icon.png"
+              width="22"
+              alt=""
+              class="menu-icon"
+            />
+          </div>
+        </div>
       </div>
-      <div class="menu">
-        <a class="menu-desktop" href="">Bestil nu</a>
-        <a class="menu-desktop" href="#services">Services</a>
-        <a class="menu-desktop" href="#about-us">Om os</a>
-        <a class="menu-desktop" href="#FAQ">FAQ</a>
-        <a class="menu-desktop" href="#maps">Kontakt</a>
-      </div>
-      <div class="burger">
-        <b>≡</b>
-      </div>
-
-    </header>
-    <div class="mobile-menu">
-      <a class="menu-desktop" href="">Bestil nu</a>
-      <a class="menu-desktop" href="#services">Services</a>
-      <a class="menu-desktop" href="#about-us">Om os</a>
-      <a class="menu-desktop" href="#FAQ">FAQ</a>
-      <a class="menu-desktop" href="#maps">Kontakt</a>
     </div>
-    <div class="menu-empty-element"></div>
-    <section class="hero" style="background-image: url('./nye_billeder/Billede1.webp');">
-      <h1>
-        Spar penge<br />
-        og optimer dit<br />
-        indflytningstjek
+    <header id="hero-overlay" class="hero-overlay">
+      <h1
+        data-w-id="bb0866c2-7400-a479-31d8-702a1f1615aa"
+        style="opacity: 0;"
+        class="heading"
+      >
+        Spar penge<br />og optimer dit<br />indflytningstjek
       </h1>
-      <p>
-        Vi laver en professionel og fyldestgørende <br/> indflytningsrapport skræddersyet til din lejlighed
+      <p
+        data-w-id="bb0866c2-7400-a479-31d8-702a1f1615ac"
+        style="opacity: 0;"
+        class="paragraph"
+      >
+        Vi laver professionelle og fyldestgørende indflytningsrapporter i
+        København, Århus og Odense, skræddersyet til din lejlighed, så du kan
+        forsikre dit depositum imod din udlejer
       </p>
-      <a href="shop.html" class="hero-button">Bestil nu</a>
-      <div class="arrow-down"><i class="fa fa-caret-down"></i></div>
-    </section>
-    <div id="services" class="menu-hide"/>
-    <section class="services">
-      <div class="section-title center">
-        <h1>VORES SERVICE</h1>
-        <div class="yellow-bar"></div>
+      <div class="div-block">
+        <a
+          href="#cards-section-service"
+          data-w-id="bb0866c2-7400-a479-31d8-702a1f1615bb"
+          style="opacity: 0;"
+          class="button-2 w-button"
+          ><span class="text-span">Læs mere</span></a
+        >
       </div>
-      <div class="center-text-box">
+    </header>
+    <section id="cards-section-service" class="cards-section">
+      <h2 class="heading-7">VORES SERVICE</h2>
+      <div class="yellow-block"></div>
+      <p
+        data-w-id="e36aca76-b9de-4942-5b6c-c91dd03ce03f"
+        style="opacity: 0;"
+        class="paragraph-2"
+      >
         Indflytningstjek.dk tilbyder udarbejdelse af indflytningsrapporter til
         personer der lejer lejligheder og værelser i Danmark. Hos
         indflytningstjek.dk betaler kunden for et Indflytningstjek, hvor der
@@ -71,573 +157,1502 @@
         lejeren, at de kun betaler for de skader, fejl og mangler, som de selv
         har lavet ved fraflytning. Derved står du stærkere i forhandlinger med
         udlejeren når du fraflytter din lejlighed.
-      </div>
-      <div class="service-container">
-        <div class="service-item" data-aos="fade-left" data-aos-offset="0">
-          <img src="./nye_billeder/Billede2.webp" alt="" />
-          <h2>Book en tid til dit indflytningstjek</h2>
-          <p>
-            Vores specialister sidder klar til at booke en dato hvor vores
-            indlflytningsagent kommer forbi og laver indflytningstjek sammen med
-            dig, så udlejer ej snyder dig for skader, fejl og mangler som
-            allerede var lavet inden du flyttede ind. Du får rapport med
-            samtlige fejl og mangler samt billeddokumentation
-          </p>
-          <a href="https://www.dr.dk/" class="hero-button">Bestil indflytningstjek</a>
+      </p>
+      <div class="cards-grid-container">
+        <div
+          id="w-node-c91dd03ce056-40779322"
+          data-w-id="e36aca76-b9de-4942-5b6c-c91dd03ce056"
+          style="opacity: 0;"
+          class="cards-grid-item"
+        >
+          <div class="cards-image-mask">
+            <img src="images/Billede2.jpg" alt="" class="cards-image top-img" />
+          </div>
+          <div class="card-item-content">
+            <h3 class="heading-21">Book en tid til dit indflytningstjek</h3>
+            <p>
+              Vores specialister sidder klar til at booke en dato hvor vores
+              indlflytningsagent kommer forbi og laver indflytningstjek sammen
+              med dig, så udlejer ej snyder dig for skader, fejl og mangler som
+              allerede var lavet inden du flyttede ind. Du får rapport med
+              samtlige fejl og mangler samt billeddokumentation
+            </p>
+          </div>
+          <div class="div-block-3">
+            <a href="shop.html" class="link">Bestil indflytningstjek</a>
+          </div>
         </div>
-
-        <div class="service-item" data-aos="fade-left" data-aos-delay="200">
-          <img src="./nye_billeder/Billede3.webp" alt="" />
-          <h2>Professionel indflytningsrapport</h2>
-          <p>
-            Når du flytter ud af din lejlighed, vil din indflytningsrapport fra
-            indflytningstjek.dk med dokumentation og billeder være din
-            redningsvest og sikre du får mest muligt retur af dit depositum og
-            kun bliver trukket for hvad der er sket i tiden du har lejet
-            lejligheden
-          </p>
-          <a href="https://www.dr.dk/" class="hero-button">Bestil indflytningstjek</a>
+        <div
+          id="w-node-749324e4cef7-40779322"
+          data-w-id="c7ed26ae-2d59-fee3-aa4c-749324e4cef7"
+          style="opacity: 0;"
+          class="cards-grid-item"
+        >
+          <div class="cards-image-mask">
+            <img src="images/Billede3.jpg" alt="" class="cards-image top-img" />
+          </div>
+          <div class="card-item-content">
+            <h3 class="heading-19">Professionel indflytningsrapport</h3>
+            <p>
+              Når du flytter ud af din lejlighed, vil din indflytningsrapport
+              fra indflytningstjek.dk med dokumentation og billeder være din
+              redningsvest og sikre du får mest muligt retur af dit depositum og
+              kun bliver trukket for hvad der er sket i tiden du har lejet
+              lejligheden
+            </p>
+          </div>
+          <div class="div-block-3">
+            <a href="shop.html" class="link">Bestil indflytningstjek</a>
+          </div>
         </div>
-
-        <div class="service-item" data-aos="fade-left" data-aos-delay="400">
-          <img src="./nye_billeder/Billede4.webp" alt="" />
-          <h2>Professionel indflytningsrapport</h2>
-          <p>
-            Når du engang flytter ud af din lejlighed, så vil din
-            indflytningsrapport være din redningsvest. Den vil sikre dig, at du
-            ikke får taget hele dit depositum.
-          </p>
-          <a href="https://www.dr.dk/" class="hero-button">Bestil indflytningstjek</a>
+        <div
+          id="w-node-55539e0eac75-40779322"
+          data-w-id="221c7358-2ee0-bb31-84db-55539e0eac75"
+          style="opacity: 0;"
+          class="cards-grid-item"
+        >
+          <div class="cards-image-mask">
+            <img src="images/Billede4.jpg" alt="" class="cards-image top-img" />
+          </div>
+          <div class="card-item-content">
+            <h3 class="heading-20">Professionel undflytningsrapport</h3>
+            <p>
+              Når du engang flytter ud af din lejlighed, så vil din
+              indflytningsrapport være din redningsvest. Den vil sikre dig, at
+              du ikke får taget hele dit depositum.
+            </p>
+          </div>
+          <div class="div-block-3">
+            <a href="shop.html" class="link">Bestil indflytningstjek</a>
+          </div>
         </div>
       </div>
     </section>
-
-    <div id="about-us" class="menu-hide"/>
-
-    <section class="about-us" >
-      <div class="about-us-container">
-        <div class="section-title">
-          <h1>OM OS</h1>
-          <div class="yellow-bar"></div>
+    <div id="about-us" class="section-about-us">
+      <div id="About-us" class="div-block-13 section-17">
+        <div class="columns-5 w-row">
+          <div class="column-6 w-col w-col-6">
+            <h2 class="heading-7 lol">Om os</h2>
+            <div class="yellow-block"></div>
+            <div class="text-block-15">
+              Når man flytter i ny lejlighed, kan det hele være uoverskueligt.
+              Flytning, møbler og indretning, men man glemmer, hvor vigtigt
+              indflytningstjekket er. Som indflytter lægger du et stort
+              depositum, som skal dække  dine fremtidige skader, men mange
+              sikrer sig ikke mod de nuværende fejl, mangler og skader. Uden et
+              ordentligt og gennemarbejdet indflytningstjek kan du risikere at
+              betale store dele af dit depositum for fejl og mangler, som du
+              ikke selv har lavet.Indflytningstjek.dk blev startet for at hjælpe
+              indflyttere med at få et gennemarbejdet indflytningstjek, så de er
+              sikret, når de engang fraflytter lejligheden igen. Det er svært
+              med det blotte øje at se fejl og mangler, såsom armaturer,
+              toiletcisternen og lampeophæng. Vi sørger for, at en professionel
+              indflytningsagent laver en fyldestgørende indflytningsrapport,
+              efter han har gennemgået din lejlighed. Dette gør, at du er bedre
+              positioneret, når udflytningsprocessen starter.
+            </div>
+          </div>
+          <div
+            data-w-id="f2aad940-2bd1-ab0c-cbc3-1a313cc0911f"
+            style="opacity: 0;"
+            class="column-7 w-col w-col-6"
+          ></div>
         </div>
-        <p>
-          Når man flytter i ny lejlighed, kan det hele være uoverskueligt.
-          Flytning, møbler og indretning, men man glemmer hvor vigtigt
-          indflytningstjekket er. Som indflytter lægger du et stort depositum,
-          som skal dække for dine fremtidige skader, men mange sikre sig ikke
-          mod de nuværende fejl, mangler og skader. Uden et ordentligt og
-          gennemarbejdet indflytningstjek kan du risikere, at betale store dele
-          af dit depositum for fejl og mangler, som du ikke selv har lavet.
-        </p>
-        <p>
-          Derfor startede vi inflytningstjek.dk for at hjælpe indflyttere med at
-          få et gennemarbejdet indflytningstjek, så de er sikret når de engang
-          fraflytter lejligheden igen. Det er svært at se fejl og mangler med
-          det blotte øje, såsom armaturer, toiletcisternen og lampeophæng. Vi
-          sørger for, at en professionel indflytningsagent laver en
-          fyldestgørende indflytningsrapport efter han gennemgår din lejlighed.
-          Dette gør, at du er bedre positioneret når udflytnings-processen
-          starter.
-        </p>
-        <p>
-          Vores vision er at hjælpe indflyttere med at få det maksimale ud af
-          deres depositum og dermed undgå uro og usikkerhed i forbindelse med
-          indflytning i en ny lejlighed.
-        </p>
-        <p>
-          Kontakt os, og vi sørger for, at en indflytningsagent gennemgår din
-          lejlighed, udarbejder indflytningsrapporten og sikre dig den bedste
-          start i din nye lejlighed.
-        </p>
       </div>
-      <img
-        src="./nye_billeder/Billede5.webp"
-        alt=""
-        data-aos="fade-left"
-      />
-    </section>
-
-    <div class="full-with-numbers column">
-      <h1>Se priser</h1>
-      <section class="full-with-numbers">
-        <a href="https://www.dr.dk/">
-          <h1>1-værelses</h1>
-          <h2>800,-</h2>
-        </a>
-        <div class="full-with-numbers-divider"></div>
-        <a href="https://www.dr.dk/">
-          <h1>2-værelses</h1>
-          <h2>1000,-</h2>
-        </a>
-        <div class="full-with-numbers-divider"></div>
-        <a href="https://www.dr.dk/">
-          <h1 >3-værelses</h1>
-          <h2>1200,-</h2>
-        </a>
-        <div class="full-with-numbers-divider"></div>
-        <a href="https://www.dr.dk/">
-          <h1>4-værelses + </h1>
-          <h2>1400,-</h2>
-        </a>
-      </section>
     </div>
-
-    <section class="about-us" id="video">
-      <div class="about-us-video">
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/8cfp165WyCo"
-          frameborder="0"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-        ></iframe>
+    <section id="cards-section" class="cards-section">
+      <div class="div-block-11">
+        <h2 class="heading-7 lol">Book en tid</h2>
+        <div class="yellow-block blockcenter"></div>
       </div>
-      <div class="about-us-container">
-        <div class="section-title">
-          <h1>"Vi fik ro i maven under hele vores ophold"</h1>
-          <div class="yellow-bar"></div>
-        </div>
-        <p>
-          Sammen med vores indflytningsagent identificerede vi 66 stk. skader,
-          fejl og mangler i Karolines lejlighed.
-        </p>
-        <p>
-          Karoline, 21 år, flyttede ind i en 2-værelses lejlighed i Århus.
-        </p>
-      </div>
-    </section>
-
-    <section class="references" id="reference">
-      <div class="section-title center">
-        <h1>HVAD SIGER KUNDERNE OM OS?</h1>
-        <div class="yellow-bar"></div>
-      </div>
-
-      <div class="references-container">
-        <div class="references-item">
-          <img
-            src="./nye_billeder/Profilbillede1.webp "
-            class="references-item-pic"
-            alt=""
-          />
-          <div class="references-item-name">Camilla</div>
-          <div class="references-item-city">Århus</div>
-          <div class="references-item-stars">
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
+      <div class="cards-grid-container">
+        <div
+          id="w-node-af0c8c6a5853-40779322"
+          data-w-id="034be79d-dc17-77ff-0a14-af0c8c6a5853"
+          style="opacity: 0;"
+          class="cards-grid-item"
+        >
+          <div class="div-block-12 disnode"></div>
+          <div class="cards-image-mask">
+            <img
+              src="images/1-værelses.png"
+              srcset="
+                images/1-værelses-p-500.png 500w,
+                images/1-værelses.png       512w
+              "
+              sizes="(max-width: 479px) 96vw, (max-width: 767px) 95vw, (max-width: 991px) 96vw, 22vw"
+              alt=""
+              class="cards-image top"
+            />
           </div>
-          <div class="references-item-text">
-            Indflytningstjek.dk kan helt sikkert anbefales. Super professionelt,
-            nemt og så gør det ikke noget, at jeg fik en stor del af mit
-            depositum tilbage
+          <div class="card-item-content">
+            <h3 class="heading-15">1-værelses</h3>
+            <h1 class="heading-14">800 ,-</h1>
+          </div>
+          <div class="read-more">
+            <a href="shop.html" class="link">Læs mere</a>
           </div>
         </div>
-
-        <div class="references-item">
-          <img
-            src="./nye_billeder/Profilbillede2.webp"
-            class="references-item-pic"
-            alt=""
-          />
-          <div class="references-item-name">Adam</div>
-          <div class="references-item-city">Odense</div>
-          <div class="references-item-stars">
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
+        <div
+          id="w-node-c3f277b0f44c-40779322"
+          data-w-id="11d8e358-2acf-dd55-8ab6-c3f277b0f44c"
+          style="opacity: 0;"
+          class="cards-grid-item"
+        >
+          <div class="div-block-12 disnode"></div>
+          <div class="cards-image-mask">
+            <img
+              src="images/2-værelses.jpg"
+              srcset="
+                images/2-værelses-p-500.jpeg 500w,
+                images/2-værelses-p-800.jpeg 800w,
+                images/2-værelses.jpg        911w
+              "
+              sizes="(max-width: 479px) 96vw, (max-width: 767px) 95vw, (max-width: 991px) 96vw, 22vw"
+              alt=""
+              class="cards-image"
+            />
           </div>
-          <div class="references-item-text">
-            Jeg vil helt sikkert anbefale Indflytningstjek.dk. Jeg flyttede ind
-            i en ny lejlighed, og blev hurtigt koblet op med en
-            indflytningsagent. På 1,5 time havde han gennemgået lejligheden fra
-            top til tå. Jeg bor stadig i lejligheden, men det er med tryghed
-            for, at jeg kun betaler for mine egne fejl og mangler.
+          <div class="card-item-content">
+            <h3 class="heading-15">2-værelses</h3>
+            <h1 class="heading-14">1000 ,-</h1>
           </div>
-        </div>
-
-        <div class="references-item">
-          <img
-            src="./nye_billeder/Profilbillede3.webp"
-            class="references-item-pic"
-            alt=""
-          />
-          <div class="references-item-name">Camille</div>
-          <div class="references-item-city">København</div>
-          <div class="references-item-stars">
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-          </div>
-          <div class="references-item-text">
-            Nemt, fleksibelt og super god service. Jeg vil klart anbefale
-            Indflytningstjek.dk til alle. Min kæreste og jeg var super glade
-            for, at vi med sikkerhed kan sige, at vores indflytningsrapport er
-            grundig og professionel.
+          <div class="read-more">
+            <a href="shop.html" class="link">Læs mere</a>
           </div>
         </div>
-
-        <div class="references-item">
-          <img
-            src="./nye_billeder/Profilbillede4.webp"
-            class="references-item-pic"
-            alt=""
-          />
-          <div class="references-item-name">Martin</div>
-          <div class="references-item-city">København</div>
-          <div class="references-item-stars">
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
+        <div
+          id="w-node-75145dd2b88a-40779322"
+          data-w-id="d7ad84c7-86f2-a1e3-cff4-75145dd2b88a"
+          style="opacity: 0;"
+          class="cards-grid-item"
+        >
+          <div class="div-block-12 disnode">
+            <div class="div-block-12 bestseller">
+              <strong>Populært produkt</strong>
+            </div>
           </div>
-          <div class="references-item-text">
-            Kan klart anbefales. Indflytningsagenten var super professionel og
-            fleksibel. Han gik igennem lejligheden, fandt 50+ fejl og mangler,
-            som jeg i hvert fald ikke skal betale for
+          <div class="cards-image-mask">
+            <img src="images/3-værelses.jpg" alt="" class="cards-image" />
+          </div>
+          <div class="card-item-content">
+            <h3 class="heading-15">3-værelses</h3>
+            <h1 class="heading-14">1200 ,-</h1>
+          </div>
+          <div class="read-more">
+            <a href="shop.html" class="link">Læs mere</a>
+          </div>
+        </div>
+        <div
+          id="w-node-33687663b134-40779322"
+          data-w-id="f6a652ed-f7df-f264-5232-33687663b134"
+          style="opacity: 0;"
+          class="cards-grid-item"
+        >
+          <div class="div-block-12 disnode"></div>
+          <div class="cards-image-mask">
+            <img src="images/4-værelses.jpg" alt="" class="cards-image" />
+          </div>
+          <div class="card-item-content">
+            <h3 class="heading-15">4-værelses</h3>
+            <h1 class="heading-14">1400 ,-</h1>
+          </div>
+          <div class="read-more">
+            <a href="shop.html" class="link">Læs mere</a>
           </div>
         </div>
       </div>
     </section>
-
-    <section class="full-with-numbers">
-        <div>
-          <h1>15</h1>
-          <h2>Indflytningsagenter</h2>
-        </div>
-        <div class="full-with-numbers-divider"></div>
-        <div>
-          <h2>København</h2>
-          <h2>Odense</h2>
-          <h2>Århus</h2>
-        </div>
-        <div class="full-with-numbers-divider"></div>
-        <div>
-          <h1>+50</h1>
-          <h2>Indflytningstjek</h2>
-        </div>
-    </section>
-
-    <div id="FAQ" class="menu-hide"/>
-
-    <section class="faq" >
-      <div class="section-title center">
-        <h1>FAQ</h1>
-        <div class="yellow-bar"></div>
-      </div>
-
-      <div class="faq-item">
-        <div class="faq-item-head">
-          <div class="faq-item-head-title">Hvad er et indflytningstjek?</div>
-          <div class="faq-item-head-arrow">
-            <i class="fa fa-arrow-down"></i>
+    <div class="section-video">
+      <div class="columns-2 w-row">
+        <div
+          class="column-4 w-col w-col-6 w-col-stack w-col-small-small-stack w-col-tiny-tiny-stack"
+        >
+          <div
+            style="padding-top: 56.17021276595745%; opacity: 0;"
+            id="w-node-e412eea7ed98-40779322"
+            data-w-id="fc42658e-2628-43fc-fc8a-e412eea7ed98"
+            class="w-embed-youtubevideo youtube"
+          >
+            <iframe
+              src="https://www.youtube.com/embed/Zsv6jsoCVRo?rel=0&amp;controls=1&amp;autoplay=0&amp;mute=0&amp;start=0"
+              frameborder="0"
+              style="
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                pointer-events: auto;
+              "
+              allow="autoplay; encrypted-media"
+              allowfullscreen=""
+            ></iframe>
           </div>
         </div>
-        <div class="faq-item-body">
-          <p>
-            Når man flytter i en ny lejlighed laver udlejer og indflytter sammen
-            en rapport som notere fejl og mangler i lejligheden ved indflytning.
-            Indflytningsrapporten er en gennemgang af lejligheden, hvor begge
-            parter sammen noterer og tager billeder af eventuelle skader i
-            lejligheden. Derved kan lejeren sikre sig, at undgå at betale for
-            skader, fejl og mangler som vedkommende ikke selv har lavet.
-          </p>
-          <p>
-            Ifølge lovgivningen har lejeren 14 dage fra overtagelsesdagen (den
-            dag hvor du får nøglen i hånden), til at få lavet et
+        <div
+          class="column-3 w-col w-col-6 w-col-stack w-col-small-small-stack w-col-tiny-tiny-stack"
+        >
+          <h1 class="heading-5">
+            &quot;Vi fik ro i maven under hele vores ophold&quot;
+          </h1>
+          <div class="yellow-block-left"></div>
+          <div class="text-block-4">
+            Sammen med vores indflytningsagent identificerede vi 66 stk. skader,
+            fejl og mangler i Karolines lejlighed.<br /><br />Karoline, 21 år,
+            flyttede ind i en 2-værelses lejlighed i Århus.
+          </div>
+        </div>
+      </div>
+    </div>
+    <section id="cards-section" class="section-reviews">
+      <div class="centered-container w-container">
+        <h2 class="heading-9">HVAD SIGER KUNDERNE OM OS?</h2>
+        <div class="cards-grid-container-2">
+          <div
+            id="w-node-88299b7f1586-40779322"
+            data-w-id="0da72ce5-bf34-4da7-6178-88299b7f1586"
+            style="opacity: 0;"
+            class="div-block-6"
+          >
+            <img
+              src="images/Profilbillede1.jpg"
+              width="69"
+              alt=""
+              class="image-2"
+            />
+            <h3
+              data-w-id="0da72ce5-bf34-4da7-6178-88299b7f1589"
+              style="opacity: 0;"
+              class="heading-10"
+            >
+              Camilla
+            </h3>
+            <div class="text-block-3">Aarhus</div>
+            <div class="div-block-10">
+              <img
+                src="images/Gold_Star.svg.png"
+                width="28"
+                srcset="
+                  images/Gold_Star.svg-p-500.png   500w,
+                  images/Gold_Star.svg-p-800.png   800w,
+                  images/Gold_Star.svg-p-1080.png 1080w,
+                  images/Gold_Star.svg.png        1200w
+                "
+                sizes="28px"
+                alt=""
+              /><img
+                src="images/Gold_Star.svg.png"
+                width="28"
+                srcset="
+                  images/Gold_Star.svg-p-500.png   500w,
+                  images/Gold_Star.svg-p-800.png   800w,
+                  images/Gold_Star.svg-p-1080.png 1080w,
+                  images/Gold_Star.svg.png        1200w
+                "
+                sizes="28px"
+                alt=""
+              /><img
+                src="images/Gold_Star.svg.png"
+                width="28"
+                srcset="
+                  images/Gold_Star.svg-p-500.png   500w,
+                  images/Gold_Star.svg-p-800.png   800w,
+                  images/Gold_Star.svg-p-1080.png 1080w,
+                  images/Gold_Star.svg.png        1200w
+                "
+                sizes="28px"
+                alt=""
+              /><img
+                src="images/Gold_Star.svg.png"
+                width="28"
+                srcset="
+                  images/Gold_Star.svg-p-500.png   500w,
+                  images/Gold_Star.svg-p-800.png   800w,
+                  images/Gold_Star.svg-p-1080.png 1080w,
+                  images/Gold_Star.svg.png        1200w
+                "
+                sizes="28px"
+                alt=""
+              /><img
+                src="images/Gold_Star.svg.png"
+                width="28"
+                srcset="
+                  images/Gold_Star.svg-p-500.png   500w,
+                  images/Gold_Star.svg-p-800.png   800w,
+                  images/Gold_Star.svg-p-1080.png 1080w,
+                  images/Gold_Star.svg.png        1200w
+                "
+                sizes="28px"
+                alt=""
+              />
+            </div>
+            <p>
+              Indflytningstjek.dk kan helt sikkert anbefales. Super
+              professionelt, nemt og så gør det ikke noget, at jeg fik en stor
+              del af mit depositum tilbage
+            </p>
+          </div>
+          <div
+            id="w-node-90884103ed0a-40779322"
+            data-w-id="30cd5bb5-290b-a231-f9cd-90884103ed0a"
+            style="opacity: 0;"
+            class="div-block-6"
+          >
+            <img
+              src="images/Profilbillede2.jpg"
+              width="69"
+              alt=""
+              class="image-2"
+            />
+            <h3
+              data-w-id="30cd5bb5-290b-a231-f9cd-90884103ed0c"
+              style="opacity: 0;"
+              class="heading-10"
+            >
+              Adam
+            </h3>
+            <div class="text-block-3">Odense</div>
+            <div class="div-block-10">
+              <img
+                src="images/Gold_Star.svg.png"
+                width="28"
+                srcset="
+                  images/Gold_Star.svg-p-500.png   500w,
+                  images/Gold_Star.svg-p-800.png   800w,
+                  images/Gold_Star.svg-p-1080.png 1080w,
+                  images/Gold_Star.svg.png        1200w
+                "
+                sizes="28px"
+                alt=""
+              /><img
+                src="images/Gold_Star.svg.png"
+                width="28"
+                srcset="
+                  images/Gold_Star.svg-p-500.png   500w,
+                  images/Gold_Star.svg-p-800.png   800w,
+                  images/Gold_Star.svg-p-1080.png 1080w,
+                  images/Gold_Star.svg.png        1200w
+                "
+                sizes="28px"
+                alt=""
+              /><img
+                src="images/Gold_Star.svg.png"
+                width="28"
+                srcset="
+                  images/Gold_Star.svg-p-500.png   500w,
+                  images/Gold_Star.svg-p-800.png   800w,
+                  images/Gold_Star.svg-p-1080.png 1080w,
+                  images/Gold_Star.svg.png        1200w
+                "
+                sizes="28px"
+                alt=""
+              /><img
+                src="images/Gold_Star.svg.png"
+                width="28"
+                srcset="
+                  images/Gold_Star.svg-p-500.png   500w,
+                  images/Gold_Star.svg-p-800.png   800w,
+                  images/Gold_Star.svg-p-1080.png 1080w,
+                  images/Gold_Star.svg.png        1200w
+                "
+                sizes="28px"
+                alt=""
+              /><img
+                src="images/Gold_Star.svg.png"
+                width="28"
+                srcset="
+                  images/Gold_Star.svg-p-500.png   500w,
+                  images/Gold_Star.svg-p-800.png   800w,
+                  images/Gold_Star.svg-p-1080.png 1080w,
+                  images/Gold_Star.svg.png        1200w
+                "
+                sizes="28px"
+                alt=""
+              />
+            </div>
+            <p style="height: 210px; opacity: 0.75;" class="paragraph-3">
+              Jeg vil helt sikkert anbefale Indflytningstjek.dk. Jeg flyttede
+              ind i en ny lejlighed, og blev hurtigt koblet op med en
+              indflytningsagent. På 1,5 time havde han gennemgået lejligheden
+              fra top til tå. Jeg bor stadig i lejligheden, men det er med
+              tryghed for, at jeg kun betaler for mine egne fejl og mangler.
+            </p>
+            <div
+              data-w-id="5772108c-0b36-12b1-3c7c-e4edb8c09ba4"
+              class="text-block-14"
+            >
+              Læs mere
+            </div>
+          </div>
+          <div
+            id="w-node-c59512766e4c-40779322"
+            data-w-id="85158db1-d582-1edb-5f74-c59512766e4c"
+            style="opacity: 0;"
+            class="div-block-6"
+          >
+            <img
+              src="images/Profilbillede3.jpg"
+              width="69"
+              alt=""
+              class="image-2"
+            />
+            <h3
+              data-w-id="85158db1-d582-1edb-5f74-c59512766e4e"
+              style="opacity: 0;"
+              class="heading-10"
+            >
+              Camille
+            </h3>
+            <div class="text-block-3">København</div>
+            <div class="div-block-10">
+              <img
+                src="images/Gold_Star.svg.png"
+                width="28"
+                srcset="
+                  images/Gold_Star.svg-p-500.png   500w,
+                  images/Gold_Star.svg-p-800.png   800w,
+                  images/Gold_Star.svg-p-1080.png 1080w,
+                  images/Gold_Star.svg.png        1200w
+                "
+                sizes="28px"
+                alt=""
+              /><img
+                src="images/Gold_Star.svg.png"
+                width="28"
+                srcset="
+                  images/Gold_Star.svg-p-500.png   500w,
+                  images/Gold_Star.svg-p-800.png   800w,
+                  images/Gold_Star.svg-p-1080.png 1080w,
+                  images/Gold_Star.svg.png        1200w
+                "
+                sizes="28px"
+                alt=""
+              /><img
+                src="images/Gold_Star.svg.png"
+                width="28"
+                srcset="
+                  images/Gold_Star.svg-p-500.png   500w,
+                  images/Gold_Star.svg-p-800.png   800w,
+                  images/Gold_Star.svg-p-1080.png 1080w,
+                  images/Gold_Star.svg.png        1200w
+                "
+                sizes="28px"
+                alt=""
+              /><img
+                src="images/Gold_Star.svg.png"
+                width="28"
+                srcset="
+                  images/Gold_Star.svg-p-500.png   500w,
+                  images/Gold_Star.svg-p-800.png   800w,
+                  images/Gold_Star.svg-p-1080.png 1080w,
+                  images/Gold_Star.svg.png        1200w
+                "
+                sizes="28px"
+                alt=""
+              /><img
+                src="images/Gold_Star.svg.png"
+                width="28"
+                srcset="
+                  images/Gold_Star.svg-p-500.png   500w,
+                  images/Gold_Star.svg-p-800.png   800w,
+                  images/Gold_Star.svg-p-1080.png 1080w,
+                  images/Gold_Star.svg.png        1200w
+                "
+                sizes="28px"
+                alt=""
+              />
+            </div>
+            <p style="height: 210px; opacity: 0.75;" class="paragraph-3">
+              Nemt, fleksibelt og super god service. Jeg vil klart anbefale
+              Indflytningstjek.dk til alle. Min kæreste og jeg var super glade
+              for, at vi med sikkerhed kan sige, at vores indflytningsrapport er
+              grundig og professionel.
+            </p>
+            <div
+              data-w-id="76a694af-ca58-ff44-11d1-9bfd079d5d2d"
+              class="text-block-14"
+            >
+              Læs mere
+            </div>
+          </div>
+          <div
+            id="w-node-4a85a25b4a05-40779322"
+            data-w-id="c7d87379-5b1e-406f-e9cc-4a85a25b4a05"
+            style="opacity: 0;"
+            class="div-block-6"
+          >
+            <img
+              src="images/Profilbillede4.jpg"
+              width="69"
+              alt=""
+              class="image-2"
+            />
+            <h3
+              data-w-id="c7d87379-5b1e-406f-e9cc-4a85a25b4a07"
+              style="opacity: 0;"
+              class="heading-10"
+            >
+              Martin
+            </h3>
+            <div class="text-block-3">København</div>
+            <div class="div-block-10">
+              <img
+                src="images/Gold_Star.svg.png"
+                width="28"
+                srcset="
+                  images/Gold_Star.svg-p-500.png   500w,
+                  images/Gold_Star.svg-p-800.png   800w,
+                  images/Gold_Star.svg-p-1080.png 1080w,
+                  images/Gold_Star.svg.png        1200w
+                "
+                sizes="28px"
+                alt=""
+              /><img
+                src="images/Gold_Star.svg.png"
+                width="28"
+                srcset="
+                  images/Gold_Star.svg-p-500.png   500w,
+                  images/Gold_Star.svg-p-800.png   800w,
+                  images/Gold_Star.svg-p-1080.png 1080w,
+                  images/Gold_Star.svg.png        1200w
+                "
+                sizes="28px"
+                alt=""
+              /><img
+                src="images/Gold_Star.svg.png"
+                width="28"
+                srcset="
+                  images/Gold_Star.svg-p-500.png   500w,
+                  images/Gold_Star.svg-p-800.png   800w,
+                  images/Gold_Star.svg-p-1080.png 1080w,
+                  images/Gold_Star.svg.png        1200w
+                "
+                sizes="28px"
+                alt=""
+              /><img
+                src="images/Gold_Star.svg.png"
+                width="28"
+                srcset="
+                  images/Gold_Star.svg-p-500.png   500w,
+                  images/Gold_Star.svg-p-800.png   800w,
+                  images/Gold_Star.svg-p-1080.png 1080w,
+                  images/Gold_Star.svg.png        1200w
+                "
+                sizes="28px"
+                alt=""
+              /><img
+                src="images/Gold_Star.svg.png"
+                width="28"
+                srcset="
+                  images/Gold_Star.svg-p-500.png   500w,
+                  images/Gold_Star.svg-p-800.png   800w,
+                  images/Gold_Star.svg-p-1080.png 1080w,
+                  images/Gold_Star.svg.png        1200w
+                "
+                sizes="28px"
+                alt=""
+              />
+            </div>
+            <p style="height: 210px; opacity: 0.75;" class="paragraph-3">
+              Kan klart anbefales. Indflytningsagenten var super professionel og
+              fleksibel. Han gik igennem lejligheden, fandt 50+ fejl og mangler,
+              som jeg i hvert fald ikke skal betale for
+            </p>
+            <div
+              data-w-id="27e7a61c-de87-63bb-4c44-72c117dfbce5"
+              class="text-block-14"
+            >
+              Læs mere
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="fullwith-agents">
+      <div class="div-block-8">
+        <h1 class="heading-11">+15</h1>
+        <h4 class="heading-12">Indflytningsagenter</h4>
+      </div>
+      <div class="div-block-8">
+        <h5 class="heading-12">København</h5>
+        <h5 class="heading-12">Odense</h5>
+        <h5 class="heading-12">Aarhus</h5>
+      </div>
+      <div class="div-block-8">
+        <h1 class="heading-11">+50</h1>
+        <h4 class="heading-12">Indflytnings tjek</h4>
+      </div>
+    </div>
+    <div id="FAQ" class="section-faq">
+      <h2 class="heading-9">FAQ</h2>
+      <div class="faq-container">
+        <div
+          data-w-id="e8bb3320-e0a8-821b-2019-3c33a9c993c6"
+          class="faq-item-head"
+        >
+          <div class="text-block-5">
+            <strong>Hvad er et indflytningstjek?</strong>
+          </div>
+          <div
+            data-collapse="medium"
+            data-animation="default"
+            data-duration="400"
+            role="banner"
+            class="navigation navigation-shop w-nav"
+          >
+            <div class="navigation-wrap">
+              <a
+                href="index.html"
+                aria-current="page"
+                class="logo-link w-nav-brand w--current"
+                ><img
+                  src="images/LOGO_Indflytningstjek.png"
+                  width="179"
+                  srcset="
+                    images/LOGO_Indflytningstjek-p-500.png 500w,
+                    images/LOGO_Indflytningstjek.png       642w
+                  "
+                  sizes="(max-width: 479px) 100vw, 179px"
+                  alt=""
+                  class="logo-image"
+              /></a>
+              <div class="menu">
+                <nav role="navigation" class="navigation-items w-nav-menu">
+                  <a
+                    href="index.html"
+                    aria-current="page"
+                    class="navigation-item w-nav-link w--current"
+                    >Forside</a
+                  ><a href="shop.html" class="navigation-item w-nav-link"
+                    >BESTIL</a
+                  ><a
+                    href="#cards-section-service"
+                    class="navigation-item w-nav-link"
+                    >VORES SERVICE</a
+                  ><a href="#About-us" class="navigation-item w-nav-link"
+                    >Om os</a
+                  ><a href="#FAQ" class="navigation-item w-nav-link">FAQ</a
+                  ><a href="#Section-Contact" class="navigation-item w-nav-link"
+                    >KONTAKT</a
+                  >
+                </nav>
+                <div class="menu-button w-nav-button">
+                  <img
+                    src="images/menu-icon_1menu-icon.png"
+                    width="22"
+                    alt=""
+                    class="menu-icon"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div style="height: 0px;" class="faq-item-body">
+          <div class="text-block-6">
+            Når man flytter i en ny lejlighed, laver udlejer og indflytter
+            sammen en rapport som noterer fejl og mangler i lejligheden ved
+            indflytning. Indflytningsrapporten er en gennemgang af lejligheden,
+            hvor begge parter sammen noterer og tager billeder af eventuelle
+            skader i lejligheden. Derved kan lejeren sikre sig  at undgå at
+            betale for skader, fejl og mangler, som vedkommende ikke selv har
+            lavet.Ifølge lovgivningen har lejeren 14 dage fra overtagelsesdagen
+            (den dag hvor du får nøglen i hånden) til at få lavet en
             indflytningsrapport. Det er meget vigtigt, at alle fejl og mangler
-            er noteret i rapporten med billeder og noter, for ellers kan udlejer
-            trække
-          </p>
-        </div>
-      </div>
-
-      <div class="faq-item">
-        <div class="faq-item-head">
-          <div class="faq-item-head-title">Hvad er jeres service?</div>
-          <div class="faq-item-head-arrow">
-            <i class="fa fa-arrow-down"></i>
+            er noteret i rapporten med billeder og noter. Hvis man ikke få gjort
+            dette ordentligt, kan udlejer potentielt trække penge fra
+            depositummet.
           </div>
         </div>
-        <div class="faq-item-body">
-          <p>
+      </div>
+      <div class="faq-container">
+        <div
+          data-w-id="5e079651-f062-e43e-630c-0abefaa913b6"
+          class="faq-item-head"
+        >
+          <div class="text-block-5">
+            <strong>Hvad er jeres service?</strong>
+          </div>
+          <div
+            data-collapse="medium"
+            data-animation="default"
+            data-duration="400"
+            role="banner"
+            class="navigation navigation-shop w-nav"
+          >
+            <div class="navigation-wrap">
+              <a
+                href="index.html"
+                aria-current="page"
+                class="logo-link w-nav-brand w--current"
+                ><img
+                  src="images/LOGO_Indflytningstjek.png"
+                  width="179"
+                  srcset="
+                    images/LOGO_Indflytningstjek-p-500.png 500w,
+                    images/LOGO_Indflytningstjek.png       642w
+                  "
+                  sizes="(max-width: 479px) 100vw, 179px"
+                  alt=""
+                  class="logo-image"
+              /></a>
+              <div class="menu">
+                <nav role="navigation" class="navigation-items w-nav-menu">
+                  <a
+                    href="index.html"
+                    aria-current="page"
+                    class="navigation-item w-nav-link w--current"
+                    >Forside</a
+                  ><a href="shop.html" class="navigation-item w-nav-link"
+                    >BESTIL</a
+                  ><a
+                    href="#cards-section-service"
+                    class="navigation-item w-nav-link"
+                    >VORES SERVICE</a
+                  ><a href="#About-us" class="navigation-item w-nav-link"
+                    >Om os</a
+                  ><a href="#FAQ" class="navigation-item w-nav-link">FAQ</a
+                  ><a href="#Section-Contact" class="navigation-item w-nav-link"
+                    >KONTAKT</a
+                  >
+                </nav>
+                <div class="menu-button w-nav-button">
+                  <img
+                    src="images/menu-icon_1menu-icon.png"
+                    width="22"
+                    alt=""
+                    class="menu-icon"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div style="height: 0px;" class="faq-item-body">
+          <div class="text-block-6">
             Indflytningstjek.dk tilbyder udarbejdelse af indflytningsrapporter
-            til personer der lejer lejligheder og værelser i Danmark. Hos
-            indflytningstjek.dk betaler kunden for et Indflytningstjek, hvor der
+            til personer, der lejer lejligheder og værelser i Danmark. Hos
+            indflytningstjek.dk betaler kunden for et indflytningstjek, hvor der
             bliver sendt en fagperson (tømrer, bygningskonstruktør eller lign.)
             ud, som gennemgår lejligheden for skader, fejl og mangler. Derved
-            sikrer lejeren, at de kun betaler for de skader, fejl og mangler,
-            som de selv har lavet ved fraflytning. Derved står du stærkere i
-            forhandlinger med udlejeren når du fraflytter din lejlighed.
-          </p>
+            sikres jeg som lejer ved fraflytning, at jeg kun betaler for de
+            skader, fejl og mangler, jeg selv har lavet. Derved står jeg
+            stærkere i forhandlinger med udlejeren når jeg fraflytter min
+            lejlighed.
+          </div>
         </div>
       </div>
-
-      <div class="faq-item">
-        <div class="faq-item-head">
-          <div class="faq-item-head-title">
-            Hvorfor skal jeg vælge at bruge indflytningstjek.dk
+      <div class="faq-container">
+        <div
+          data-w-id="a41932c1-849a-d13c-238c-8fc4b0ed8cdf"
+          class="faq-item-head"
+        >
+          <div class="text-block-5">
+            <strong>Hvorfor skal du vælge at bruge indflytnignstjek.dk</strong>
           </div>
-          <div class="faq-item-head-arrow">
-            <i class="fa fa-arrow-down"></i>
+          <div
+            data-collapse="medium"
+            data-animation="default"
+            data-duration="400"
+            role="banner"
+            class="navigation navigation-shop w-nav"
+          >
+            <div class="navigation-wrap">
+              <a
+                href="index.html"
+                aria-current="page"
+                class="logo-link w-nav-brand w--current"
+                ><img
+                  src="images/LOGO_Indflytningstjek.png"
+                  width="179"
+                  srcset="
+                    images/LOGO_Indflytningstjek-p-500.png 500w,
+                    images/LOGO_Indflytningstjek.png       642w
+                  "
+                  sizes="(max-width: 479px) 100vw, 179px"
+                  alt=""
+                  class="logo-image"
+              /></a>
+              <div class="menu">
+                <nav role="navigation" class="navigation-items w-nav-menu">
+                  <a
+                    href="index.html"
+                    aria-current="page"
+                    class="navigation-item w-nav-link w--current"
+                    >Forside</a
+                  ><a href="shop.html" class="navigation-item w-nav-link"
+                    >BESTIL</a
+                  ><a
+                    href="#cards-section-service"
+                    class="navigation-item w-nav-link"
+                    >VORES SERVICE</a
+                  ><a href="#About-us" class="navigation-item w-nav-link"
+                    >Om os</a
+                  ><a href="#FAQ" class="navigation-item w-nav-link">FAQ</a
+                  ><a href="#Section-Contact" class="navigation-item w-nav-link"
+                    >KONTAKT</a
+                  >
+                </nav>
+                <div class="menu-button w-nav-button">
+                  <img
+                    src="images/menu-icon_1menu-icon.png"
+                    width="22"
+                    alt=""
+                    class="menu-icon"
+                  />
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="faq-item-body">
-          <p>
+        <div style="height: 0px;" class="faq-item-body">
+          <div class="text-block-6">
             Du skal vælge indflytningstjek.dk, hvis du vil sikre dit depositum
-            ved fraflytning. Vores indflytningsagenter har stor ekspertise med
-            at gennemgå lejligheder for skader, fejl og mangler. De kan derved
-            identificere problemer ved lejligheden, som lejer ikke kan, og få
-            det dokumenteret til punkt og prikke.
-          </p>
-          <p>
-            Indflyttere har ikke den nødvendige viden og tid til at lave et
+            bedst muligt ved fraflytning. Vores indflytningsagenter har stor
+            ekspertise med at gennemgå lejligheder for skader, fejl og mangler.
+            De kan derved identificere problemer ved lejligheden, som lejer ikke
+            kan, og få det dokumenteret til punkt og prikke.<br /><br />Indflyttere
+            har oftest ikke den nødvendige viden og tid til at lave et
             dybdegående indflytningstjek. Hos indflytningstjek.dk har vi
             konkrete sager fra tidligere opgaver, hvor kunder kun har fundet få
             overfladiske fejl og mangler, imens indflytningsagenten
             identificerer fundamentale og kritiske skader, fejl og mangler, som
             derved har givet kunderne en stor tilbagebetaling af deres
             depositum.
-          </p>
+          </div>
         </div>
       </div>
-
-      <div class="faq-item">
-        <div class="faq-item-head">
-          <div class="faq-item-head-title">
-            Hvornår skal jeg kontakte indlfytningstjek, hvis jeg gerne vil have
-            gennemgået min lejlighed i tide?
+      <div class="faq-container">
+        <div
+          data-w-id="eab89a41-e1eb-1dab-e4b3-5db8a11ad42e"
+          class="faq-item-head"
+        >
+          <div class="text-block-5">
+            <strong>Hvornår skal du kontakte Indflytningstjek?</strong>
           </div>
-          <div class="faq-item-head-arrow">
-            <i class="fa fa-arrow-down"></i>
+          <div
+            data-collapse="medium"
+            data-animation="default"
+            data-duration="400"
+            role="banner"
+            class="navigation navigation-shop w-nav"
+          >
+            <div class="navigation-wrap">
+              <a
+                href="index.html"
+                aria-current="page"
+                class="logo-link w-nav-brand w--current"
+                ><img
+                  src="images/LOGO_Indflytningstjek.png"
+                  width="179"
+                  srcset="
+                    images/LOGO_Indflytningstjek-p-500.png 500w,
+                    images/LOGO_Indflytningstjek.png       642w
+                  "
+                  sizes="(max-width: 479px) 100vw, 179px"
+                  alt=""
+                  class="logo-image"
+              /></a>
+              <div class="menu">
+                <nav role="navigation" class="navigation-items w-nav-menu">
+                  <a
+                    href="index.html"
+                    aria-current="page"
+                    class="navigation-item w-nav-link w--current"
+                    >Forside</a
+                  ><a href="shop.html" class="navigation-item w-nav-link"
+                    >BESTIL</a
+                  ><a
+                    href="#cards-section-service"
+                    class="navigation-item w-nav-link"
+                    >VORES SERVICE</a
+                  ><a href="#About-us" class="navigation-item w-nav-link"
+                    >Om os</a
+                  ><a href="#FAQ" class="navigation-item w-nav-link">FAQ</a
+                  ><a href="#Section-Contact" class="navigation-item w-nav-link"
+                    >KONTAKT</a
+                  >
+                </nav>
+                <div class="menu-button w-nav-button">
+                  <img
+                    src="images/menu-icon_1menu-icon.png"
+                    width="22"
+                    alt=""
+                    class="menu-icon"
+                  />
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="faq-item-body">
-          <p>
-            Fra overtagelsesdagen af din lejlighed, har du 14 dage til at notere
+        <div style="height: 0px;" class="faq-item-body">
+          <div class="text-block-6">
+            Fra overtagelsesdagen af din lejlighed har du 14 dage til at notere
             og dokumentere skader, fejl og mangler, samt at indsende
             indflytningsrapporten til din udlejer. Derfor anbefaler vi, at du
             kontakter indflytningstjek.dk, når din lejekontrakt er underskrevet.
-            Derved kan vi aftale dato for indflytningstjekket tilpasset din
-            kalender, så vi ikke overskrider de 14 dage fra overtagelsesdatoen.
-          </p>
-          <p>
-            OBS: Overtagelsesdatoen, er det tidspunkt hvor du modtager nøglerne
-            til lejligheden og er berettiget til at flytte ind. Ved overtrædelse
-            af de 14 dage fra overtagelsesdatoen, bortfalder lejerens krav på at
-            kunne dokumentere skader, fejl og mangler. Det betyder, at du ikke
-            længere kan dokumentere hvorvidt du eller den tidligere lejer har
-            påført skaden - og derfor står du med ansvaret og regningen som
-            fratrækkes dit depositum.
-          </p>
+            Derved kan vi få dato for indflytningstjekket tilpasset din
+            kalender, så du ikke overskrider de 14 dage fra
+            overtagelsesdatoen.<br /><br />OBS: Overtagelsesdatoen er det
+            tidspunkt, hvor du modtager nøglerne til lejligheden og er
+            berettiget til at flytte ind. Ved overtrædelse af de 14 dage fra
+            overtagelsesdatoen bortfalder lejerens krav på at kunne dokumentere
+            skader, fejl og mangler. Det betyder, at du ikke længere kan
+            dokumentere, hvorvidt du eller den tidligere lejer har påført skaden
+            - og derfor står du med ansvaret og udgiften, som fratrækkes dit
+            depositum.
+          </div>
         </div>
       </div>
-
-      <div class="faq-item">
-        <div class="faq-item-head">
-          <div class="faq-item-head-title">
-            Hvem laver indflytningsrapporten?
+      <div class="faq-container">
+        <div
+          data-w-id="ff8410c4-0e7a-bdc3-c19a-3565bffaeea5"
+          class="faq-item-head"
+        >
+          <div class="text-block-5">
+            <strong>Hvem laver indflytningsrapporten?</strong>
           </div>
-          <div class="faq-item-head-arrow">
-            <i class="fa fa-arrow-down"></i>
+          <div
+            data-collapse="medium"
+            data-animation="default"
+            data-duration="400"
+            role="banner"
+            class="navigation navigation-shop w-nav"
+          >
+            <div class="navigation-wrap">
+              <a
+                href="index.html"
+                aria-current="page"
+                class="logo-link w-nav-brand w--current"
+                ><img
+                  src="images/LOGO_Indflytningstjek.png"
+                  width="179"
+                  srcset="
+                    images/LOGO_Indflytningstjek-p-500.png 500w,
+                    images/LOGO_Indflytningstjek.png       642w
+                  "
+                  sizes="(max-width: 479px) 100vw, 179px"
+                  alt=""
+                  class="logo-image"
+              /></a>
+              <div class="menu">
+                <nav role="navigation" class="navigation-items w-nav-menu">
+                  <a
+                    href="index.html"
+                    aria-current="page"
+                    class="navigation-item w-nav-link w--current"
+                    >Forside</a
+                  ><a href="shop.html" class="navigation-item w-nav-link"
+                    >BESTIL</a
+                  ><a
+                    href="#cards-section-service"
+                    class="navigation-item w-nav-link"
+                    >VORES SERVICE</a
+                  ><a href="#About-us" class="navigation-item w-nav-link"
+                    >Om os</a
+                  ><a href="#FAQ" class="navigation-item w-nav-link">FAQ</a
+                  ><a href="#Section-Contact" class="navigation-item w-nav-link"
+                    >KONTAKT</a
+                  >
+                </nav>
+                <div class="menu-button w-nav-button">
+                  <img
+                    src="images/menu-icon_1menu-icon.png"
+                    width="22"
+                    alt=""
+                    class="menu-icon"
+                  />
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="faq-item-body">
-          <p>
+        <div style="height: 0px;" class="faq-item-body">
+          <div class="text-block-6">
             Hos indflytningstjek.dk har vi indflytningsagenter ansat, som enten
-            er færdiguddannet tømrersvend, eller er i gang med at blive
-            tømrersvend. De kan også være påbegyndt en videregående uddannelse
-            oven på deres tømrer uddannelse, som bygningsingeniør eller
-            bygningskonstruktør. Alle har erfaringer inden for
-            bygningskonstruktioner, og udover det, så er de specielt uddannet
-            hos Indflytningstjek.dk til at gennemgå lejligheder.
-          </p>
-        </div>
-      </div>
-
-      <div class="faq-item">
-        <div class="faq-item-head">
-          <div class="faq-item-head-title">Hvordan bestiller jeg?</div>
-          <div class="faq-item-head-arrow">
-            <i class="fa fa-arrow-down"></i>
+            er færdiguddannet tømrersvend. De kan også være påbegyndt en
+            videregående uddannelse oven på deres tømrer uddannelse, som
+            bygningsingeniør eller bygningskonstruktør. Alle har erfaringer
+            inden for bygningskonstruktioner, og udover det, så er de specielt
+            uddannet hos Indflytningstjek.dk til at gennemgå lejligheder.
           </div>
         </div>
-        <div class="faq-item-body">
-          <p>
+      </div>
+      <div class="faq-container">
+        <div
+          data-w-id="afafd13a-c0ba-05dd-783c-cd6ca447a867"
+          class="faq-item-head"
+        >
+          <div class="text-block-5"><strong>Hvordan bestiller du?</strong></div>
+          <div
+            data-collapse="medium"
+            data-animation="default"
+            data-duration="400"
+            role="banner"
+            class="navigation navigation-shop w-nav"
+          >
+            <div class="navigation-wrap">
+              <a
+                href="index.html"
+                aria-current="page"
+                class="logo-link w-nav-brand w--current"
+                ><img
+                  src="images/LOGO_Indflytningstjek.png"
+                  width="179"
+                  srcset="
+                    images/LOGO_Indflytningstjek-p-500.png 500w,
+                    images/LOGO_Indflytningstjek.png       642w
+                  "
+                  sizes="(max-width: 479px) 100vw, 179px"
+                  alt=""
+                  class="logo-image"
+              /></a>
+              <div class="menu">
+                <nav role="navigation" class="navigation-items w-nav-menu">
+                  <a
+                    href="index.html"
+                    aria-current="page"
+                    class="navigation-item w-nav-link w--current"
+                    >Forside</a
+                  ><a href="shop.html" class="navigation-item w-nav-link"
+                    >BESTIL</a
+                  ><a
+                    href="#cards-section-service"
+                    class="navigation-item w-nav-link"
+                    >VORES SERVICE</a
+                  ><a href="#About-us" class="navigation-item w-nav-link"
+                    >Om os</a
+                  ><a href="#FAQ" class="navigation-item w-nav-link">FAQ</a
+                  ><a href="#Section-Contact" class="navigation-item w-nav-link"
+                    >KONTAKT</a
+                  >
+                </nav>
+                <div class="menu-button w-nav-button">
+                  <img
+                    src="images/menu-icon_1menu-icon.png"
+                    width="22"
+                    alt=""
+                    class="menu-icon"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div style="height: 0px;" class="faq-item-body">
+          <div class="text-block-6">
             Du kan bestille en tid med en indflytningsagent gennem hjemmesiden.
             Du betaler med det samme, og derefter kobler vi dig op med en
             indflytningsagent, som vil gennemgå lejligheden på et tidspunkt, som
             I har aftalt i fællesskab.
-          </p>
-        </div>
-      </div>
-
-      <div class="faq-item">
-        <div class="faq-item-head">
-          <div class="faq-item-head-title">Hvornår er jeg bundet af købet?</div>
-          <div class="faq-item-head-arrow">
-            <i class="fa fa-arrow-down"></i>
           </div>
         </div>
-        <div class="faq-item-body">
-          <p>
-            Hvis du gerne vil gøre brug af en service ydelse af
-            indflytningstjek.dk, er du bundet, når du har betalt for dit
+      </div>
+      <div class="faq-container">
+        <div
+          data-w-id="b2a75ed5-876e-dc32-1b24-13b7d4f07e2f"
+          class="faq-item-head"
+        >
+          <div class="text-block-5">
+            <strong>Hvornår er jeg bundet af købet?</strong>
+          </div>
+          <div
+            data-collapse="medium"
+            data-animation="default"
+            data-duration="400"
+            role="banner"
+            class="navigation navigation-shop w-nav"
+          >
+            <div class="navigation-wrap">
+              <a
+                href="index.html"
+                aria-current="page"
+                class="logo-link w-nav-brand w--current"
+                ><img
+                  src="images/LOGO_Indflytningstjek.png"
+                  width="179"
+                  srcset="
+                    images/LOGO_Indflytningstjek-p-500.png 500w,
+                    images/LOGO_Indflytningstjek.png       642w
+                  "
+                  sizes="(max-width: 479px) 100vw, 179px"
+                  alt=""
+                  class="logo-image"
+              /></a>
+              <div class="menu">
+                <nav role="navigation" class="navigation-items w-nav-menu">
+                  <a
+                    href="index.html"
+                    aria-current="page"
+                    class="navigation-item w-nav-link w--current"
+                    >Forside</a
+                  ><a href="shop.html" class="navigation-item w-nav-link"
+                    >BESTIL</a
+                  ><a
+                    href="#cards-section-service"
+                    class="navigation-item w-nav-link"
+                    >VORES SERVICE</a
+                  ><a href="#About-us" class="navigation-item w-nav-link"
+                    >Om os</a
+                  ><a href="#FAQ" class="navigation-item w-nav-link">FAQ</a
+                  ><a href="#Section-Contact" class="navigation-item w-nav-link"
+                    >KONTAKT</a
+                  >
+                </nav>
+                <div class="menu-button w-nav-button">
+                  <img
+                    src="images/menu-icon_1menu-icon.png"
+                    width="22"
+                    alt=""
+                    class="menu-icon"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div style="height: 0px;" class="faq-item-body">
+          <div class="text-block-6">
+            Hvis du gerne vil gøre brug af en serviceydelse af
+            Indflytningstjek.dk, er du bundet, når du har betalt for dit
             produkt. Vi tilbyder dog 100% tilfredshed. Er du utilfreds med vores
             service, skal du kontakte os på info@indflytningstjek.dk og så
             finder vi en fælles løsning. Du har 14 dages fortrydelsesret fra
             indflytningstjekket er udført, og kan derfor ikke få en eventuel
-            kompensation når de 14 dage er overskredet.
-          </p>
+            kompensation, hvis tidsfristen på 14 dage overskrides.
+          </div>
         </div>
       </div>
-
-      <div class="faq-item">
-        <div class="faq-item-head">
-          <div class="faq-item-head-title">
-            Hvorfor skal jeg betale inden, jeg modtager servicen?
+      <div class="faq-container">
+        <div
+          data-w-id="29e42ab1-8845-4135-8d02-a5a0274bb743"
+          class="faq-item-head"
+        >
+          <div class="text-block-5">
+            <strong
+              >Hvorfor skal jeg betale, inden jeg modtager servicen?</strong
+            >
           </div>
-          <div class="faq-item-head-arrow">
-            <i class="fa fa-arrow-down"></i>
+          <div
+            data-collapse="medium"
+            data-animation="default"
+            data-duration="400"
+            role="banner"
+            class="navigation navigation-shop w-nav"
+          >
+            <div class="navigation-wrap">
+              <a
+                href="index.html"
+                aria-current="page"
+                class="logo-link w-nav-brand w--current"
+                ><img
+                  src="images/LOGO_Indflytningstjek.png"
+                  width="179"
+                  srcset="
+                    images/LOGO_Indflytningstjek-p-500.png 500w,
+                    images/LOGO_Indflytningstjek.png       642w
+                  "
+                  sizes="(max-width: 479px) 100vw, 179px"
+                  alt=""
+                  class="logo-image"
+              /></a>
+              <div class="menu">
+                <nav role="navigation" class="navigation-items w-nav-menu">
+                  <a
+                    href="index.html"
+                    aria-current="page"
+                    class="navigation-item w-nav-link w--current"
+                    >Forside</a
+                  ><a href="shop.html" class="navigation-item w-nav-link"
+                    >BESTIL</a
+                  ><a
+                    href="#cards-section-service"
+                    class="navigation-item w-nav-link"
+                    >VORES SERVICE</a
+                  ><a href="#About-us" class="navigation-item w-nav-link"
+                    >Om os</a
+                  ><a href="#FAQ" class="navigation-item w-nav-link">FAQ</a
+                  ><a href="#Section-Contact" class="navigation-item w-nav-link"
+                    >KONTAKT</a
+                  >
+                </nav>
+                <div class="menu-button w-nav-button">
+                  <img
+                    src="images/menu-icon_1menu-icon.png"
+                    width="22"
+                    alt=""
+                    class="menu-icon"
+                  />
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="faq-item-body">
-          <p>
-            Når du køber et produkt hos indflytningstjek.dk, betaler du servicen
+        <div style="height: 0px;" class="faq-item-body">
+          <div class="text-block-6">
+            Når du køber et produkt hos Indflytningstjek.dk, betaler du servicen
             inden indflytningstjekket. Vi er nødsaget til at betale
             indflytningsagenten for at udføre arbejdet - og derfor er vi nødt
-            til at kræve betaling inden vi påbegynder processen, for at kunne
+            til at kræve betaling, inden vi påbegynder processen for at kunne
             garantere løn til vores ansatte.
-          </p>
+          </div>
         </div>
       </div>
-
-      <div class="faq-item">
-        <div class="faq-item-head">
-          <div class="faq-item-head-title">
-            Hvad sker der, hvis jeg ikke er tilfreds med mit indflytningstjek?
+      <div class="faq-container">
+        <div
+          data-w-id="44b3a880-69f8-b110-6b8f-324c0273e895"
+          class="faq-item-head"
+        >
+          <div class="text-block-5">
+            <strong
+              >Hvad sker der, hvis du ikke er tilfreds med mit
+              indflytningstjek?</strong
+            >
           </div>
-          <div class="faq-item-head-arrow">
-            <i class="fa fa-arrow-down"></i>
+          <div
+            data-collapse="medium"
+            data-animation="default"
+            data-duration="400"
+            role="banner"
+            class="navigation navigation-shop w-nav"
+          >
+            <div class="navigation-wrap">
+              <a
+                href="index.html"
+                aria-current="page"
+                class="logo-link w-nav-brand w--current"
+                ><img
+                  src="images/LOGO_Indflytningstjek.png"
+                  width="179"
+                  srcset="
+                    images/LOGO_Indflytningstjek-p-500.png 500w,
+                    images/LOGO_Indflytningstjek.png       642w
+                  "
+                  sizes="(max-width: 479px) 100vw, 179px"
+                  alt=""
+                  class="logo-image"
+              /></a>
+              <div class="menu">
+                <nav role="navigation" class="navigation-items w-nav-menu">
+                  <a
+                    href="index.html"
+                    aria-current="page"
+                    class="navigation-item w-nav-link w--current"
+                    >Forside</a
+                  ><a href="shop.html" class="navigation-item w-nav-link"
+                    >BESTIL</a
+                  ><a
+                    href="#cards-section-service"
+                    class="navigation-item w-nav-link"
+                    >VORES SERVICE</a
+                  ><a href="#About-us" class="navigation-item w-nav-link"
+                    >Om os</a
+                  ><a href="#FAQ" class="navigation-item w-nav-link">FAQ</a
+                  ><a href="#Section-Contact" class="navigation-item w-nav-link"
+                    >KONTAKT</a
+                  >
+                </nav>
+                <div class="menu-button w-nav-button">
+                  <img
+                    src="images/menu-icon_1menu-icon.png"
+                    width="22"
+                    alt=""
+                    class="menu-icon"
+                  />
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="faq-item-body">
-          <p>
+        <div style="height: 0px;" class="faq-item-body">
+          <div class="text-block-6">
             Vi tilbyder 100% tilfredshed. Er du utilfreds med vores service,
-            skal du kontakte os på info@indflytningstjek.dk og så finder vi en
+            skal du kontakte os på info@indflytningstjek.dk, og så finder vi en
             fælles løsning. Du har 14 dage fortrydelsesret fra
             indflytningstjekket er udført, og kan derfor ikke få en eventuel
-            kompensation når de 14 dage er overskredet. Det er meget vigtigt at
+            kompensation hvis de 14 dage overskrides. Det er meget vigtigt, at
             du kontakter os inden 14 dage efter du har overtaget din lejlighed.
-            Ellers, kan du ikke nå at melde jeres fejl og mangler til udlejer.
-          </p>
+            Ellers kan du ikke nå at melde jeres fejl og mangler til udlejer.
+          </div>
         </div>
       </div>
-    </section>
-
-    <div id="maps" class="menu-hide"/>
-    <section class="maps" >
-      <div class="section-title center">
-        <h1>KONTAKT</h1>
-        <div class="yellow-bar"></div>
-      </div>
-      <div class="maps-container">
-        <div class="map" data-aos="fade">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2247.784929178419!2d12.477523915928886!3d55.710110080541924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4652519ba3f74877%3A0xfee95d8170dc978b!2sFrederikssundsvej%20272%2C%202700%20K%C3%B8benhavn!5e0!3m2!1sda!2sdk!4v1589319433790!5m2!1sda!2sdk"
-            width="500"
-            height="350"
-            frameborder="0"
-            style="border: 0;"
-            allowfullscreen=""
-            aria-hidden="false"
-            tabindex="0"
-          ></iframe>
+    </div>
+    <div id="Section-Contact" class="section-contact">
+      <div class="columns-3 w-row">
+        <div class="column-5 w-col w-col-6">
+          <div
+            data-widget-latlng="55.71011009999999,12.4797126"
+            class="w-widget w-widget-map"
+          ></div>
+          <h1>København</h1>
           <div>
-            <h1>København</h1>
-            <p>
-              Indflytningstjek.dk <br />
-              Frederikssundsvej 272 <br />
-              2700 København <br />
-              T: 41 92 34 31
-            </p>
+            Indflytningstjek.dk<br />Frederikssundsvej 272<br />2700
+            København<br />T: 41 92 34 31<br />
           </div>
         </div>
-        <div>
-          <span class="center-text"
-            >Du er altid velkommen til at henvende dig til os, hvis du skulle
-            have spørgsmål og overvejelser i forhold til dit
-            indflytningstjek</span
+        <div class="w-col w-col-6">
+          <div
+            id="contact"
+            data-w-id="471f21e5-cf24-73b7-571d-efab7e5f568e"
+            style="opacity: 0;"
+            class="container-3 w-container"
           >
-          <div class="row">
-            <div class="input">
-              <label>Fornavn</label>
-              <input type="text" />
-            </div>
-            <div class="input">
-              <label>Efternavn</label>
-              <input type="text" />
-            </div>
-          </div>
-          <div class="row">
-            <div class="input">
-              <label>Efternavn</label>
-              <input type="text" />
-            </div>
-          </div>
-          <div class="row">
-            <div class="input">
-              <label>Telefon</label>
-              <input type="text" />
-            </div>
-          </div>
-          <div class="row">
-            <div class="input">
-              <label>Adresse</label>
-              <input type="text" />
-            </div>
-          </div>
-          <div class="row">
-            <div class="input">
-              <label>Besked</label>
-              <input type="text" />
-            </div>
-          </div>
-          <div class="row">
-            <div class="button">
-              Send
+            <h2 class="heading-22">Kontakt</h2>
+            <p>
+              Du er altid velkommen til at henvende dig til os, hvis du skulle
+              have spørgsmål og overvejelser i forhold til dit indflytningstjek
+            </p>
+            <div class="w-form">
+              <form
+                id="wf-form-Contact-Form"
+                name="wf-form-Contact-Form"
+                data-name="Contact Form"
+                method="post"
+              >
+                <div class="contact-form-grid-2">
+                  <div id="w-node-efab7e5f569f-40779322">
+                    <label for="firstName" id="contact-first-name"
+                      >Fornavn</label
+                    ><input
+                      type="text"
+                      class="w-input"
+                      maxlength="256"
+                      name="firstName"
+                      data-name="firstName"
+                      id="firstName"
+                      required=""
+                    />
+                  </div>
+                  <div id="w-node-efab7e5f56a3-40779322">
+                    <label for="lastName" id="contact-last-name"
+                      >Efternavn</label
+                    ><input
+                      type="text"
+                      class="w-input"
+                      maxlength="256"
+                      name="lastName"
+                      data-name="lastName"
+                      id="lastName"
+                      required=""
+                    />
+                  </div>
+                  <div id="w-node-efab7e5f56a7-40779322">
+                    <label for="email-2" id="contact-email">Email</label
+                    ><input
+                      type="email"
+                      class="w-input"
+                      maxlength="256"
+                      name="email"
+                      data-name="email"
+                      id="email-2"
+                      required=""
+                    />
+                  </div>
+                  <div id="w-node-efab7e5f56ab-40779322">
+                    <label for="phone" id="contact-phone">Tlf.</label
+                    ><input
+                      type="tel"
+                      class="w-input"
+                      maxlength="256"
+                      name="phone"
+                      data-name="phone"
+                      id="phone"
+                    />
+                  </div>
+                  <div id="w-node-efab7e5f56af-40779322">
+                    <label for="message-2" id="contact-message">Besked</label
+                    ><textarea
+                      data-name="message"
+                      maxlength="5000"
+                      id="message-2"
+                      name="message"
+                      class="w-input"
+                    ></textarea>
+                  </div>
+                </div>
+                <input
+                  type="submit"
+                  value="Send"
+                  data-wait="Please wait..."
+                  class="submit-button w-button"
+                />
+              </form>
+
+              <div class="w-form-done">
+                <div>Din besked er modtaget</div>
+              </div>
+              <div class="error-message w-form-fail">
+                <div class="text-block-17">
+                  Øv der skete en fejl, prøv igen på et andet tidspunkt
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
-
-    <footer>
-      <div class="column">
-        <div>Indflytningstjek.dk</div>
-        <div>Frederikssundsvej 272</div>
-        <div>2700 København</div>
-        <div>T: 41 92 34 31</div>
-        <div>CVR: 41327928</div>
+    </div>
+    <div class="section-9">
+      <div class="div-block-9">
+        <a href="#" class="link-2"></a>
+        <div class="text-block-9">Indflytningstjek.dk</div>
+        <div class="text-block-10">Frederikssundsvej 272</div>
+        <div class="text-block-11">2700 København</div>
+        <div class="text-block-12">T: 41 92 34 31</div>
+        <div class="text-block-13">CVR: 41327928</div>
       </div>
-      <div class="column">
-        <div><a href="/">Forside</a></div>
-        <div><a href="/">Shop</a></div>
+      <div class="div-block-9">
+        <div class="text-block-9">Mest populære produkter</div>
+        <a href="shop.html" class="link-3">3 værelses lejlighed</a
+        ><a href="shop.html" class="link-3">4+ værelses lejlighed</a
+        ><a href="shop.html" class="link-3">1 værelses lejlighed</a
+        ><a href="shop.html" class="link-3">2 værelses lejlighed</a>
       </div>
-    </footer>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
-    <script src="./action.ts"></script>
-    
+      <div class="div-block-9">
+        <div class="text-block-9">Find os på de sociale medier</div>
+        <div class="div-block-14">
+          <a
+            href="https://www.facebook.com/Indflytningstjekdk-112750703785016"
+            target="_blank"
+            class="w-inline-block"
+            ><img
+              src="images/facebook-logo-2019-1597680-1350125.png"
+              width="29"
+              srcset="
+                images/facebook-logo-2019-1597680-1350125-p-500.png 500w,
+                images/facebook-logo-2019-1597680-1350125.png       512w
+              "
+              sizes="29px"
+              alt="" /></a
+          ><a
+            href="https://www.instagram.com/indflytningstjek.dk/"
+            target="_blank"
+            class="w-inline-block"
+            ><img
+              src="images/logo-ig-instagram-png-icons-logo-png-images-for-download-34.png"
+              width="41"
+              alt="" /></a
+          ><a
+            href="https://youtu.be/Zsv6jsoCVRo"
+            target="_blank"
+            class="w-inline-block"
+            ><img
+              src="images/youtube-icon-helloseo-300x300.png"
+              width="34"
+              alt=""
+          /></a>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.4.1.min.220afd743d.js?site=5ec7833f9ef05a57edb18ebf"
+      type="text/javascript"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://js.stripe.com/v3" preload></script>
+    <script src="js/custom.js" type="text/javascript"></script>
+    <script src="js/webflow.js" type="text/javascript"></script>
+    <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
   </body>
 </html>
