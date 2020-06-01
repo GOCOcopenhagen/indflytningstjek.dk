@@ -30,6 +30,7 @@ $(() => {
         stripe.redirectToCheckout({
             lineItems: [{ price: 'price_HNvYKXILiQzGlS', quantity: 1 }],
             mode: 'payment',
+            billingAddressCollection: 'required',
             successUrl: 'https://indflytningstjek.dk/shop-success.html',
             cancelUrl: 'https://indflytningstjek.dk/shop.html',
         })
@@ -43,6 +44,7 @@ $(() => {
     $("#order-2").click(() => {
         stripe.redirectToCheckout({
             lineItems: [{ price: 'price_HNvZdKCprsBOdt', quantity: 1 }],
+            billingAddressCollection: 'required',
             mode: 'payment',
             successUrl: 'https://indflytningstjek.dk/shop-success.html',
             cancelUrl: 'https://indflytningstjek.dk/shop.html',
@@ -57,6 +59,7 @@ $(() => {
     $("#order-3").click(() => {
         stripe.redirectToCheckout({
             lineItems: [{ price: 'price_HNvZbiqzRy03Le', quantity: 1 }],
+            billingAddressCollection: 'required',
             mode: 'payment',
             successUrl: 'https://indflytningstjek.dk/shop-success.html',
             cancelUrl: 'https://indflytningstjek.dk/shop.html',
@@ -74,6 +77,7 @@ $(() => {
     $("#order-4").click(() => {
         stripe.redirectToCheckout({
             lineItems: [{ price: 'plan_HJV6CkXr977znw', quantity: 1 }],
+            billingAddressCollection: 'required',
             mode: 'payment',
             successUrl: 'https://indflytningstjek.dk/shop-success.html',
             cancelUrl: 'https://indflytningstjek.dk/shop.html',
