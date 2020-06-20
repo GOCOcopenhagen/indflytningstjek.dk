@@ -2064,6 +2064,7 @@ figcaption {
   -ms-flex-direction: row;
   flex-direction: row;
   background-color: #212c3a;
+  justify-content: space-around;
 }
 
 .columns-4 {
