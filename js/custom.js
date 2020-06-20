@@ -76,7 +76,7 @@ $(() => {
     //price_HNvbWjKnYFYIck
     $("#order-4").click(() => {
         stripe.redirectToCheckout({
-            lineItems: [{ price: 'plan_HJV6CkXr977znw', quantity: 1 }],
+            lineItems: [{ price: 'price_HNvbWjKnYFYIck', quantity: 1 }],
             billingAddressCollection: 'required',
             mode: 'payment',
             successUrl: 'https://indflytningstjek.dk/shop-success.html',
